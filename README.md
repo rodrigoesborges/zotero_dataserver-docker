@@ -44,6 +44,7 @@ If the server uses a self-signed certificate an exception should be added to the
 
 The `cert\_override.txt` file can be generated with Firefox as explained here (https://groups.google.com/d/msg/zotero-dev/MEwLaptJIzI/PVDAFJiqEgAJ). The override file in this directory corresponds to the self-signed certificate in the apache directory.
 
+If using a Let's Encrypt Certificate with Zotero versions up to 4.x , the best option is to copy `cert8.db` file from a recent firefox installation profile, as indicated in (https://forums.zotero.org/discussion/51458/using-local-certificate-authority-in-zotero-standalone-a-success-story).
 
 ## User administration
 
